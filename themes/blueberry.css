@@ -1,0 +1,240 @@
+:root{ 
+	/*arranged from darkest color on top to lightest color on bottom */
+	--color2: #769FCD;
+	--color3: #B9D7EA;
+	--color4: #D6E6F2;
+	--color5: #F7FBFC;
+	--color1: #f2f3f3;;
+}
+
+body {  
+    background-color: var(--color1); 
+}
+
+div {
+    background-color: var(--color5); 
+    border-radius: 3px; 
+}
+
+#habitdetails {
+    background-color: var(--color3);
+    border: initial;
+}
+
+.header-section .menu {
+    background-color: var(--color3);
+    border: initial;
+}
+
+.header-section .menu a {
+    background-color: var(--color5); 
+    border-radius: 6px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+.header-section .dropbtn {
+    background-color: var(--color5);  
+    border-radius: 6px;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: bold;	
+}
+
+.header-section .dropdown-content {
+    border: none;
+    background-color: var(--color5);
+}
+
+.header-section .dropdown-content a {
+    color: black;    
+    background-color: var(--color5); 
+}
+
+.dropdown-content a:hover {
+    background-color: var(--color3);
+}
+
+.header-section header {
+    background-color: var(--color2);
+    border: initial;
+}
+
+.header-section header h1 {  
+    background-color: var(--color2); 
+}
+
+#functionality {
+    background-color: var(--color3); /* Matches planner section color */
+    border: initial; /* Matches day_planner.php */
+    border-radius: 10px; 
+}
+
+#createhabit {
+    background-color: var(--color3); /* Changed from #C2A385 to match day_planner.php sections */
+    border: initial; /* Matches day_planner.php's minimal border */
+    border-radius: 8px; 
+}
+
+#btn1 {
+    background-color: var(--color2); 
+    border: initial; /* Matches day_planner.php button style */
+    border-radius: 8px; 
+}
+
+#btn2 {
+    background-color: var(--color2); 
+    border: initial; /* Matches day_planner.php button style */
+    border-radius: 8px; 
+}
+
+table, #tasktable {
+    background-color: var(--color4); /* Matches day_planner.php table */
+    border: initial; /* Matches day_planner.php */
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+td, th, .planner-section td {
+    background-color: var(--color5); 
+    border: initial;
+    border-radius: 5px; 
+}
+
+h3 {
+    background-color: var(--color2); 
+    border: initial; 
+}
+
+#dayplannersection {
+    background-color: var(--color1); 
+}
+
+#plannerh1 {
+    background-color: var(--color3); 
+    border: initial; 
+}
+
+#plannerview {
+    background-color: var(--color3); 
+    border: initial; 
+}
+
+#taskcontainer {
+    background-color: var(--color3); 
+    border: initial; 
+}
+
+/*todolist extras*/
+.container {
+	background-color: var(--color3);
+}
+
+.task-input button {
+	background-color: var(--color4);
+}
+
+.delete-btn .clearAll {
+    background-color: var(--color2);
+}
+
+body.session {
+    background-color: var(--color1);
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+#welcome {
+    background-color: var(--color2);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form.session {
+    background-color: var(--color3);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid var(--color4);
+}
+
+table.session {
+    background-color: var(--color5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input.session {
+    background-color: var(--color5);
+    border: 1px solid var(--color4);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+button.signupsession {
+    background-color: var(--color4);
+	margin-top: 5px;
+	margin-bottom: 5px;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button.loginsession {
+    background-color: var(--color4);
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button.loginsession:hover {
+    background-color: var(--color1);
+}
+
+button.signupsession:hover:enabled {
+    background-color: var(--color1);
+}
+
+button.signupsession:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+
+#quote {
+    background-color: var(--color3);
+    padding: 10px;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+div.loginsession {
+    background-color: var(--color2);
+	border-radius: 10px;
+}
+
+div.signupsession {
+    background-color: var(--color2);
+    padding: 4px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#about {
+	background-color: var(--color3);
+}
+
+.aboutp{
+	background-color: var(--color5);			
+}
+
+.planner-section button {
+	border: 3px solid var(--color2);
+	border-radius: 5px;
+	background-color: var(--color4);
+}
