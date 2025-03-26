@@ -6,6 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <a href="http://productivityplanner.great-site.net/" target="_blank">Go to the page</a>
+    <a href="http://productivityplanner.great-site.net/">Go to the page</a>
 </body>
 </html>
