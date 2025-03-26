@@ -1,4 +1,5 @@
 #Productivity Planner
+Productivity Planner aims to help users organise their daily life by arranging things to do in "tasks", display the events for the day, track habits they wish to develop and enter monk mode for a certain time. See below how to use each function of the website
 <!DOCTYPE html>
 <html lang="en">
 <head>
