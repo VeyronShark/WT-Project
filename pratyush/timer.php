@@ -4,7 +4,6 @@
 		header("Location: ../index.php");
         exit();
 	}
-	header("Content-Type: text/html");
 ?>
 <!DOCTYPE html>
 <html lang="en">
